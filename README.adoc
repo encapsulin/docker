@@ -1,4 +1,4 @@
-== CI Images
+== CI Images.
 
 These images are used by CI to run the actual builds.
 
