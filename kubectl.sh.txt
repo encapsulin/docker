@@ -1,0 +1,10 @@
+kubectl get nodes
+kubectl delete -f <manifest.yml>
+kubectl get pods
+kubectl apply -f <manifest.yml>
+kubectl wait --for=condition=Ready job/<job-id> --timeout=3s
+kubectl logs <pod> --follow
+
+kubectl delete configmap <mapname>
+kubectl create configmap <mapname> --from-literal=special.cnt=3
+kubectl get configmap <mapname> -o yml
