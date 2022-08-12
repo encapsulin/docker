@@ -1,3 +1,4 @@
 minikube start
 minikube dashboard
 minikube docker-env
+minikube image rm image <img>:<ver>
