@@ -3,3 +3,22 @@ minikube dashboard
 minikube docker-env
 minikube image ls
 minikube image rm image <img>:<ver>
+
+https://www.youtube.com/watch?v=s_o8dwzRlu4
+minikube start --driver docker
+minikube status
+kubectl get node
+kubectl get pod
+kubectl apply -f app.yml
+kubectl get all
+kubectl get configmap
+kubectl get secret
+kubectl describe pod <podname>
+kubectl logs <podname>
+kubectl get svc #(service)
+minikube ip
+kubectl get node -o wide
+
+https://www.youtube.com/watch?v=AplluksKvzI
+
+https://www.youtube.com/playlist?list=PLg5SS_4L6LYvN1RqaVesof8KAf-02fJSi
