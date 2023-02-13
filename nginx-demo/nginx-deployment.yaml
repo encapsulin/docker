@@ -19,6 +19,3 @@ spec:
         image: nginx:1.16
         ports:
         - containerPort: 80
-        # - port: 81
-          # targetPort: 80 
-          
