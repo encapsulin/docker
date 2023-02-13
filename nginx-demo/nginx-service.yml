@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     # app.kubernetes.io/name: MyApp
-    run: nginx-deployment
+    app: nginx
   ports:
     - protocol: TCP
       port: 81
